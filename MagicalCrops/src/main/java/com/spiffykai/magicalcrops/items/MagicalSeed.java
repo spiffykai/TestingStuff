@@ -11,6 +11,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.common.IPlantable;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
  * Created by spiffykai on 4/16/2017.
@@ -23,7 +24,7 @@ public class MagicalSeed extends Item implements IPlantable{
     public MagicalSeed(Block crops, Block soil){
         this.crops = crops;
         this.soilBlockID = soil;
-        this.setCreativeTab(CreativeTabs.MATERIALS);
+        this.setCreativeTab(ModItems.tabMagicalCrops);
     }
 
     @Override

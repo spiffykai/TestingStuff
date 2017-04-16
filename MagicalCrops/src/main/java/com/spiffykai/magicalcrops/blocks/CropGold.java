@@ -16,11 +16,11 @@ public class CropGold extends BlockMagicalCrops{
     }
 
     protected Item getSeed(){
-        return ModItems.goldSeed;
+        return ModItems.seedGold;
     }
 
     protected Item getCrop(){
-        return ModItems.goldEssence;
+        return ModItems.essenceGold;
     }
 
 }

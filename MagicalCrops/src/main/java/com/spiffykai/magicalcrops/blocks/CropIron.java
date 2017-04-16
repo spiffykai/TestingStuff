@@ -22,11 +22,11 @@ public class CropIron extends BlockMagicalCrops{
     }
 
     protected Item getSeed(){
-        return ModItems.ironSeed;
+        return ModItems.seedIron;
     }
 
     protected Item getCrop(){
-        return ModItems.ironEssence;
+        return ModItems.essenceIron;
     }
 
 }

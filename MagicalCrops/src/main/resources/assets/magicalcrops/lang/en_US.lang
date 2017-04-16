@@ -1,4 +1,39 @@
-item.magicalcrops.ironseed.name=Iron Seed
-item.magicalcrops.ironessence.name=Iron Essence
-item.magicalcrops.goldseed.name=Gold Seed
-item.magicalcrops.goldessence.name=Gold Essence
+item.magicalcrops.essenceiron.name=Iron Essence
+item.magicalcrops.essencegold.name=Gold Essence
+item.magicalcrops.essencediamond.name=Diamond Essence
+
+item.magicalcrops.seedair.name=Air Seed
+item.magicalcrops.seedcoal.name=Coal Seed
+item.magicalcrops.seeddye.name=Dye Seed
+item.magicalcrops.seedearth.name=Earth Seed
+item.magicalcrops.seedfire.name=Fire Seed
+item.magicalcrops.seedminico.name=Minicio Seed
+item.magicalcrops.seednature.name=Nature Seed
+item.magicalcrops.seedwater.name=Water Seed
+item.magicalcrops.seedredstone.name=Redstone Seed
+item.magicalcrops.seedglowstone.name=Glowstone Seed
+item.magicalcrops.seedobsidian.name=Obsidian Seed
+item.magicalcrops.seednether.name=Nether Seed
+item.magicalcrops.seediron.name=Iron Seed
+item.magicalcrops.seedgold.name=Gold Seed
+item.magicalcrops.seedlapis.name=Lapis Lazuli Seed
+item.magicalcrops.seedexperience.name=Experience Seed
+item.magicalcrops.seedquartz.name=Quartz Seed
+item.magicalcrops.seeddiamond.name=Diamond Seed
+item.magicalcrops.seedemerald.name=Emerald Seed
+item.magicalcrops.seedblaze.name=Blaze Seed
+item.magicalcrops.seedcreeper.name=Creeper Seed
+item.magicalcrops.seedenderman.name=Enderman Seed
+item.magicalcrops.seedghast.name=Ghast Seed
+item.magicalcrops.seedskeleton.name=Skeleton Seed
+item.magicalcrops.seedslime.name=Slime Seed
+item.magicalcrops.seedspider.name=Spider Seed
+item.magicalcrops.seedwither.name=Wither Seed
+item.magicalcrops.seedchicken.name=Chicken Seed
+item.magicalcrops.seedcow.name=Cow Seed
+item.magicalcrops.seedpig.name=Pig Seed
+item.magicalcrops.seedsheep.name=Sheep Seed
+
+itemGroup.magicalcrops=Magical Crops
+
+tile.magicalcrops.oreminicio.name=Minicio Ore

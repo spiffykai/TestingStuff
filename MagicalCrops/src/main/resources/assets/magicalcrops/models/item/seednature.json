@@ -1,7 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "magicalcrops:items/ironseed"
+    "layer0": "magicalcrops:items/seeds_nature"
   },
   "display": {
     "ground": {

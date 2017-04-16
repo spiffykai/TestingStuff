@@ -1,0 +1,25 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "magicalcrops:crop0",
+    "textures": {
+      "front": "modtut:blocks/statetexture_off"
+    }
+  },
+  "variants": {
+    "age": {
+      "0": {
+        "model": "magicalcrops:crop0"
+      },
+      "1": {
+        "model": "magicalcrops:crop1"
+      },
+      "2": {
+        "model": "magicalcrops:crop2"
+      },
+      "3": {
+        "model": "magicalcrops:cropdiamond"
+      }
+    }
+  }
+}
