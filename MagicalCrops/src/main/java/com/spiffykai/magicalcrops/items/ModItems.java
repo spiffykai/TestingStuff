@@ -14,8 +14,12 @@ public class ModItems {
 
     public static MagicalSeed ironSeed;
     public static MagicalSeed goldSeed;
+    public static MagicalSeed diamondSeed;
     public static Item ironEssence;
     public static Item goldEssence;
+    public static Item diamondEssence;
+    public static Item redstoneEssence;
+    public static Item waterEssence;
 
     public static void init(){
         ironSeed = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
@@ -27,6 +31,11 @@ public class ModItems {
         goldEssence = new Item();
         GameRegistry.register(goldSeed.setUnlocalizedName(MagicalCrops.MODID + ".goldseed").setRegistryName("goldseed"));
         GameRegistry.register(goldEssence.setUnlocalizedName(MagicalCrops.MODID + ".goldessence").setRegistryName("goldessence").setCreativeTab(CreativeTabs.MATERIALS));
+
+        diamondSeed = new MagicalSeed(ModBlocks.cropDiamond, Blocks.FARMLAND);
+        diamondEssence = new Item();
+        GameRegistry.register(diamondSeed.setUnlocalizedName(MagicalCrops.MODID + ".diamondseed").setRegistryName("diamondseed"));
+        GameRegistry.register(diamondEssence.setUnlocalizedName(MagicalCrops.MODID + ".diamondessence").setRegistryName("diamondessence").setCreativeTab(CreativeTabs.MATERIALS));
     }
 
 }
