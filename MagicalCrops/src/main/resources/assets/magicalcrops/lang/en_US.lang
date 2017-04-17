@@ -37,3 +37,5 @@ item.magicalcrops.seedsheep.name=Sheep Seed
 itemGroup.magicalcrops=Magical Crops
 
 tile.magicalcrops.oreminicio.name=Minicio Ore
+tile.magicalcrops.blockminicio.name=§aMinicio Block
+tile.magicalcrops.blockaccio.name=§6Accio Block

@@ -45,9 +45,48 @@ public class ModItems {
     public static MagicalSeed seedPig;
     public static MagicalSeed seedSheep;
 
-    public static Item essenceIron;
-    public static Item essenceGold;
-    public static Item essenceDiamond;
+    public static EssenceBase essenceMinicio;
+    public static EssenceBase essenceAccio;
+    public static EssenceBase essenceCrucio;
+    public static EssenceBase essenceImperio;
+    public static EssenceBase essenceZivicio;
+    public static EssenceBase essenceTainted;
+    public static EssenceBase essenceAir;
+    public static EssenceBase essenceCoal;
+    public static EssenceBase essenceTechnicolor;
+    public static EssenceBase essenceEarth;
+    public static EssenceBase essenceFire;
+    public static EssenceBase essenceNature;
+    public static EssenceBase essenceWater;
+    public static EssenceBase essenceRedstone;
+    public static EssenceBase essenceGlowstone;
+    public static EssenceBase essenceObsidian;
+    public static EssenceBase essenceNether;
+    public static EssenceBase essenceIron;
+    public static EssenceBase essenceGold;
+    public static EssenceBase essenceLapis;
+    public static EssenceBase essenceExperience;
+    public static EssenceBase essenceQuartz;
+    public static EssenceBase essenceDiamond;
+    public static EssenceBase essenceEmerald;
+    public static EssenceBase essenceBlaze;
+    public static EssenceBase essenceCreeper;
+    public static EssenceBase essenceEnderman;
+    public static EssenceBase essenceGhast;
+    public static EssenceBase essenceSkeleton;
+    public static EssenceBase essenceSlime;
+    public static EssenceBase essenceSpider;
+    public static EssenceBase essenceWither;
+    public static EssenceBase essenceChicken;
+    public static EssenceBase essenceCow;
+    public static EssenceBase essencePig;
+    public static EssenceBase essenceSheep;
+
+
+
+    //public static Item essenceIron;
+    //public static Item essenceGold;
+    //public static Item essenceDiamond;
 
     public static final CreativeTabs tabMagicalCrops = new CreativeTabs("magicalcrops"){
         @Override public Item getTabIconItem(){
@@ -134,6 +173,43 @@ public class ModItems {
         GameRegistry.register(seedCow.setUnlocalizedName(MagicalCrops.MODID + ".seedcow").setRegistryName("seedcow"));
         GameRegistry.register(seedPig.setUnlocalizedName(MagicalCrops.MODID + ".seedpig").setRegistryName("seedpig"));
         GameRegistry.register(seedSheep.setUnlocalizedName(MagicalCrops.MODID + ".seedsheep").setRegistryName("seedsheep"));
+
+        essenceMinicio = new EssenceBase("essenceminicio");
+        essenceAccio = new EssenceBase("essenceaccio");
+        essenceCrucio = new EssenceBase("essencecrucio");
+        essenceImperio = new EssenceBase("essenceimperio");
+        essenceZivicio = new EssenceBase("essencezivicio");
+        essenceTainted = new EssenceBase("essencetainted");
+        essenceAir = new EssenceBase("essenceair");
+        essenceCoal = new EssenceBase("essencecoal");
+        essenceTechnicolor = new EssenceBase("essencetechnicolor");
+        essenceEarth = new EssenceBase("essenceearth");
+        essenceFire = new EssenceBase("essencefire");
+        essenceNature = new EssenceBase("essencenature");
+        essenceWater = new EssenceBase("essencewater");
+        essenceRedstone = new EssenceBase("essenceredstone");
+        essenceGlowstone = new EssenceBase("essenceglowstone");
+        essenceObsidian = new EssenceBase("essenceobsidian");
+        essenceNether = new EssenceBase("essencenether");
+        essenceIron = new EssenceBase("essenceiron");
+        essenceGold = new EssenceBase("essencegold");
+        essenceLapis = new EssenceBase("essencelapis");
+        essenceExperience = new EssenceBase("essenceexperience");
+        essenceQuartz = new EssenceBase("essencequartz");
+        essenceDiamond = new EssenceBase("essencediamond");
+        essenceEmerald = new EssenceBase("essenceemerald");
+        essenceBlaze = new EssenceBase("essenceblaze");
+        essenceCreeper = new EssenceBase("essencecreeper");
+        essenceEnderman = new EssenceBase("essenceenderman");
+        essenceGhast = new EssenceBase("essenceghast");
+        essenceSkeleton = new EssenceBase("essenceskeleton");
+        essenceSlime = new EssenceBase("essenceslime");
+        essenceSpider = new EssenceBase("essencespider");
+        essenceWither = new EssenceBase("essencewither");
+        essenceChicken = new EssenceBase("essencechicken");
+        essenceCow = new EssenceBase("essencecow");
+        essencePig = new EssenceBase("essencepig");
+        essenceSheep = new EssenceBase("essencesheep");
     }
 
 }
