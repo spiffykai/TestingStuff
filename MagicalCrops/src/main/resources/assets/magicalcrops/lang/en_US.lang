@@ -39,3 +39,7 @@ itemGroup.magicalcrops=Magical Crops
 tile.magicalcrops.oreminicio.name=Minicio Ore
 tile.magicalcrops.blockminicio.name=§aMinicio Block
 tile.magicalcrops.blockaccio.name=§6Accio Block
+tile.magicalcrops.blockcrucio.name=§eCrucio Block
+tile.magicalcrops.blockimperio.name=§bImperio Block
+tile.magicalcrops.blockzivicio.name=§dZivicio Block
+tile.magicalcrops.blockmasszivicio.name=§8Mass Zivicio Block

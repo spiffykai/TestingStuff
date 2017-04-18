@@ -82,7 +82,11 @@ public class ModItems {
     public static EssenceBase essencePig;
     public static EssenceBase essenceSheep;
 
-
+    public static InfusionStoneBase infusionStoneWeak;
+    public static InfusionStoneBase infusionStoneRegular;
+    public static InfusionStoneBase infusionStoneStrong;
+    public static InfusionStoneBase infusionStoneExtreme;
+    public static InfusionStoneBase infusionStoneMaster;
 
     //public static Item essenceIron;
     //public static Item essenceGold;
@@ -110,69 +114,37 @@ public class ModItems {
         //GameRegistry.register(seedDiamond.setUnlocalizedName(MagicalCrops.MODID + ".seeddiamond").setRegistryName("seeddiamond"));
         //GameRegistry.register(essenceDiamond.setUnlocalizedName(MagicalCrops.MODID + ".essencediamond").setRegistryName("essencediamond").setCreativeTab(CreativeTabs.MATERIALS));
 
-        seedAir = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedCoal = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedDye = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedEarth = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedFire = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedMinico = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedNature = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedWater = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedRedstone = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedGlowstone = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedObsidian = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedNether = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedIron = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedGold = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedLapis = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedExperience = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedQuartz = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedDiamond = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedEmerald = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedBlaze = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedCreeper = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedEnderman = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedGhast = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedSkeleton = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedSlime = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedSpider = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedWither = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedChicken = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedCow = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedPig = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-        seedSheep = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND);
-
-        GameRegistry.register(seedAir.setUnlocalizedName(MagicalCrops.MODID + ".seedair").setRegistryName("seedair"));
-        GameRegistry.register(seedCoal.setUnlocalizedName(MagicalCrops.MODID + ".seedcoal").setRegistryName("seedcoal"));
-        GameRegistry.register(seedDye.setUnlocalizedName(MagicalCrops.MODID + ".seeddye").setRegistryName("seeddye"));
-        GameRegistry.register(seedEarth.setUnlocalizedName(MagicalCrops.MODID + ".seedearth").setRegistryName("seedearth"));
-        GameRegistry.register(seedFire.setUnlocalizedName(MagicalCrops.MODID + ".seedfire").setRegistryName("seedfire"));
-        GameRegistry.register(seedMinico.setUnlocalizedName(MagicalCrops.MODID + ".seedminico").setRegistryName("seedminico"));
-        GameRegistry.register(seedNature.setUnlocalizedName(MagicalCrops.MODID + ".seednature").setRegistryName("seednature"));
-        GameRegistry.register(seedWater.setUnlocalizedName(MagicalCrops.MODID + ".seedwater").setRegistryName("seedwater"));
-        GameRegistry.register(seedRedstone.setUnlocalizedName(MagicalCrops.MODID + ".seedredstone").setRegistryName("seedredstone"));
-        GameRegistry.register(seedGlowstone.setUnlocalizedName(MagicalCrops.MODID + ".seedglowstone").setRegistryName("seedglowstone"));
-        GameRegistry.register(seedObsidian.setUnlocalizedName(MagicalCrops.MODID + ".seedobsidian").setRegistryName("seedobsidian"));
-        GameRegistry.register(seedNether.setUnlocalizedName(MagicalCrops.MODID + ".seednether").setRegistryName("seednether"));
-        GameRegistry.register(seedIron.setUnlocalizedName(MagicalCrops.MODID + ".seediron").setRegistryName("seediron"));
-        GameRegistry.register(seedGold.setUnlocalizedName(MagicalCrops.MODID + ".seedgold").setRegistryName("seedgold"));
-        GameRegistry.register(seedLapis.setUnlocalizedName(MagicalCrops.MODID + ".seedlapis").setRegistryName("seedlapis"));
-        GameRegistry.register(seedExperience.setUnlocalizedName(MagicalCrops.MODID + ".seedexperience").setRegistryName("seedexperience"));
-        GameRegistry.register(seedQuartz.setUnlocalizedName(MagicalCrops.MODID + ".seedquartz").setRegistryName("seedquartz"));
-        GameRegistry.register(seedDiamond.setUnlocalizedName(MagicalCrops.MODID + ".seeddiamond").setRegistryName("seeddiamond"));
-        GameRegistry.register(seedEmerald.setUnlocalizedName(MagicalCrops.MODID + ".seedemerald").setRegistryName("seedemerald"));
-        GameRegistry.register(seedBlaze.setUnlocalizedName(MagicalCrops.MODID + ".seedblaze").setRegistryName("seedblaze"));
-        GameRegistry.register(seedCreeper.setUnlocalizedName(MagicalCrops.MODID + ".seedcreeper").setRegistryName("seedcreeper"));
-        GameRegistry.register(seedEnderman.setUnlocalizedName(MagicalCrops.MODID + ".seedenderman").setRegistryName("seedenderman"));
-        GameRegistry.register(seedGhast.setUnlocalizedName(MagicalCrops.MODID + ".seedghast").setRegistryName("seedghast"));
-        GameRegistry.register(seedSkeleton.setUnlocalizedName(MagicalCrops.MODID + ".seedskeleton").setRegistryName("seedskeleton"));
-        GameRegistry.register(seedSlime.setUnlocalizedName(MagicalCrops.MODID + ".seedslime").setRegistryName("seedslime"));
-        GameRegistry.register(seedSpider.setUnlocalizedName(MagicalCrops.MODID + ".seedspider").setRegistryName("seedspider"));
-        GameRegistry.register(seedWither.setUnlocalizedName(MagicalCrops.MODID + ".seedwither").setRegistryName("seedwither"));
-        GameRegistry.register(seedChicken.setUnlocalizedName(MagicalCrops.MODID + ".seedchicken").setRegistryName("seedchicken"));
-        GameRegistry.register(seedCow.setUnlocalizedName(MagicalCrops.MODID + ".seedcow").setRegistryName("seedcow"));
-        GameRegistry.register(seedPig.setUnlocalizedName(MagicalCrops.MODID + ".seedpig").setRegistryName("seedpig"));
-        GameRegistry.register(seedSheep.setUnlocalizedName(MagicalCrops.MODID + ".seedsheep").setRegistryName("seedsheep"));
+        seedAir = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedair");
+        seedCoal = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedcoal");
+        seedDye = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seeddye");
+        seedEarth = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedearth");
+        seedFire = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedfire");
+        seedMinico = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedminico");
+        seedNature = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seednature");
+        seedWater = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedwater");
+        seedRedstone = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedredstone");
+        seedGlowstone = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedglowstone");
+        seedObsidian = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedobsidian");
+        seedNether = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seednether");
+        seedIron = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seediron");
+        seedGold = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedgold");
+        seedLapis = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedlapis");
+        seedExperience = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedexperience");
+        seedQuartz = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedquartz");
+        seedDiamond = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seeddiamond");
+        seedEmerald = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedemerald");
+        seedBlaze = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedblaze");
+        seedCreeper = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedcreeper");
+        seedEnderman = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedenderman");
+        seedGhast = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedghast");
+        seedSkeleton = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedskeleton");
+        seedSlime = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedslime");
+        seedSpider = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedspider");
+        seedWither = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedwither");
+        seedChicken = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedchicken");
+        seedCow = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedcow");
+        seedPig = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedpig");
+        seedSheep = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedsheep");
 
         essenceMinicio = new EssenceBase("essenceminicio");
         essenceAccio = new EssenceBase("essenceaccio");
@@ -210,6 +182,12 @@ public class ModItems {
         essenceCow = new EssenceBase("essencecow");
         essencePig = new EssenceBase("essencepig");
         essenceSheep = new EssenceBase("essencesheep");
+
+        infusionStoneWeak = new InfusionStoneBase("infusionstoneweak", "Minicio -> Accio", 256);
+        infusionStoneRegular = new InfusionStoneBase("infusionstoneregular", "Accio -> Crucio", 512);
+        infusionStoneStrong = new InfusionStoneBase("infusionstonestrong", "Crucio -> Imperio", 1024);
+        infusionStoneExtreme = new InfusionStoneBase("infusionstoneextreme", "Imperio -> Zivicio", 2048);
+        infusionStoneMaster = new InfusionStoneBase("infusionstonemaster", "Infuses All", 9999);
     }
 
 }

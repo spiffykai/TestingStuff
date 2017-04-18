@@ -1,10 +1,8 @@
 package com.spiffykai.magicalcrops.blocks;
 
-import com.spiffykai.magicalcrops.MagicalCrops;
-import com.spiffykai.magicalcrops.items.ModItems;
-import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
-import net.minecraft.init.Items;
+import com.spiffykai.magicalcrops.blocks.Crops.CropDiamond;
+import com.spiffykai.magicalcrops.blocks.Crops.CropGold;
+import com.spiffykai.magicalcrops.blocks.Crops.CropIron;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**

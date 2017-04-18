@@ -13,11 +13,14 @@ import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 import javax.annotation.Nullable;
 import java.util.Random;
@@ -85,6 +88,14 @@ public class BlockMagicalCrops extends BlockBush implements IGrowable{
             }
         }
     }
+
+    //might remove later if lag
+    //@SideOnly(Side.CLIENT)
+    //public void randomDisplayTick(IBlockState stateIn, World worldIn, BlockPos pos, Random rand)
+    //{
+      //  worldIn.spawnParticle(EnumParticleTypes.ENCHANTMENT_TABLE, pos.getX() + rand.nextDouble(), pos.getY() + 1.1D, pos.getZ() + rand.nextDouble(), 0.0D, 0.0D, 0.0D);
+    //}
+
 
     public void grow(World worldIn, BlockPos pos, IBlockState state)
     {

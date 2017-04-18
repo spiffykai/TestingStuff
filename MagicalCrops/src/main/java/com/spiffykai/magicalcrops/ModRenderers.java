@@ -104,6 +104,12 @@ public class ModRenderers {
         registerBlock(ModBlocks.blockImperio, "blockimperio");
         registerBlock(ModBlocks.blockZivicio, "blockzivicio");
         registerBlock(ModBlocks.blockMassZivicio, "blockmasszivicio");
+
+        registerModel(ModItems.infusionStoneWeak, "infusionstoneweak");
+        registerModel(ModItems.infusionStoneRegular, "infusionstoneregular");
+        registerModel(ModItems.infusionStoneStrong, "infusionstonestrong");
+        registerModel(ModItems.infusionStoneExtreme, "infusionstoneextreme");
+        registerModel(ModItems.infusionStoneMaster, "infusionstonemaster");
     }
 
     public static void registerModel(Item item, String resourceName){

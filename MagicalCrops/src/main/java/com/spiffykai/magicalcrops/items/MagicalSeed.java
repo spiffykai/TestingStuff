@@ -1,5 +1,6 @@
 package com.spiffykai.magicalcrops.items;
 
+import com.spiffykai.magicalcrops.MagicalCrops;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
@@ -21,10 +22,13 @@ public class MagicalSeed extends Item implements IPlantable{
     private final Block crops;
     private final Block soilBlockID;
 
-    public MagicalSeed(Block crops, Block soil){
+    public MagicalSeed(Block crops, Block soil, String localName){
         this.crops = crops;
         this.soilBlockID = soil;
         this.setCreativeTab(ModItems.tabMagicalCrops);
+        this.setUnlocalizedName(MagicalCrops.MODID + "." + localName);
+        this.setRegistryName(localName);
+        GameRegistry.register(this);
     }
 
     @Override

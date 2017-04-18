@@ -1,6 +1,7 @@
-package com.spiffykai.magicalcrops.blocks;
+package com.spiffykai.magicalcrops.blocks.Crops;
 
 import com.spiffykai.magicalcrops.MagicalCrops;
+import com.spiffykai.magicalcrops.blocks.BlockMagicalCrops;
 import com.spiffykai.magicalcrops.items.ModItems;
 import com.sun.scenario.effect.Crop;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -13,7 +14,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 /**
  * Created by spiffykai on 4/16/2017.
  */
-public class CropIron extends BlockMagicalCrops{
+public class CropIron extends BlockMagicalCrops {
 
     public CropIron(){
         super();
