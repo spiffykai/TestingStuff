@@ -1,8 +1,7 @@
 package com.spiffykai.magicalcrops.blocks;
 
-import com.spiffykai.magicalcrops.blocks.Crops.CropDiamond;
-import com.spiffykai.magicalcrops.blocks.Crops.CropGold;
-import com.spiffykai.magicalcrops.blocks.Crops.CropIron;
+import com.spiffykai.magicalcrops.blocks.Crops.*;
+import com.spiffykai.magicalcrops.items.ModItems;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
@@ -13,6 +12,8 @@ public class ModBlocks {
     public static CropIron cropIron;
     public static CropGold cropGold;
     public static CropDiamond cropDiamond;
+    public static CropMinicio cropMinicio;
+    public static CropBase cropCreeper;
 
     public static OreMinicio oreMinicio;
 
@@ -30,6 +31,10 @@ public class ModBlocks {
         GameRegistry.register(cropGold);
         cropDiamond = new CropDiamond();
         GameRegistry.register(cropDiamond);
+        cropMinicio = new CropMinicio();
+        GameRegistry.register(cropMinicio);
+        cropCreeper = new CropBase(ModItems.essenceCreeper, ModItems.seedCreeper, "cropcreeper");
+        GameRegistry.register(cropCreeper);
 
         oreMinicio = new OreMinicio();
 

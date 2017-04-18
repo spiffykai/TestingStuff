@@ -119,7 +119,7 @@ public class ModItems {
         seedDye = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seeddye");
         seedEarth = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedearth");
         seedFire = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedfire");
-        seedMinico = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedminico");
+        seedMinico = new MagicalSeed(ModBlocks.cropMinicio, Blocks.FARMLAND, "seedminico");
         seedNature = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seednature");
         seedWater = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedwater");
         seedRedstone = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedredstone");
@@ -134,7 +134,7 @@ public class ModItems {
         seedDiamond = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seeddiamond");
         seedEmerald = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedemerald");
         seedBlaze = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedblaze");
-        seedCreeper = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedcreeper");
+        seedCreeper = new MagicalSeed(ModBlocks.cropCreeper, Blocks.FARMLAND, "seedcreeper");
         seedEnderman = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedenderman");
         seedGhast = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedghast");
         seedSkeleton = new MagicalSeed(ModBlocks.cropIron, Blocks.FARMLAND, "seedskeleton");

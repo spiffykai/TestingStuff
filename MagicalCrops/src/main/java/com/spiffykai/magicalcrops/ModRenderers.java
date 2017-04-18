@@ -15,18 +15,10 @@ import net.minecraftforge.client.model.ModelLoader;
 public class ModRenderers {
 
     public static void preInit(){
-        //ModelLoader.setCustomModelResourceLocation(ModItems.ironSeed, 0, new ModelResourceLocation("ironseed", "inventory"));
-        //Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.seedIron, 0, new ModelResourceLocation("magicalcrops:seediron", "inventory"));
-        //Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.essenceIron, 0, new ModelResourceLocation("magicalcrops:essenceiron", "inventory"));
         Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Item.getItemFromBlock(ModBlocks.cropIron), 0, new ModelResourceLocation("magicalcrops:cropiron", "inventory"));
-
-        //Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.seedGold, 0, new ModelResourceLocation("magicalcrops:seedgold", "inventory"));
-        //Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.essenceGold, 0, new ModelResourceLocation("magicalcrops:essencegold", "inventory"));
         Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Item.getItemFromBlock(ModBlocks.cropGold), 0, new ModelResourceLocation("magicalcrops:cropgold", "inventory"));
-
-        //Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.seedDiamond, 0, new ModelResourceLocation("magicalcrops:seeddiamond", "inventory"));
-        //Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.essenceDiamond, 0, new ModelResourceLocation("magicalcrops:essencediamond", "inventory"));
         Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Item.getItemFromBlock(ModBlocks.cropDiamond), 0, new ModelResourceLocation("magicalcrops:cropdiamond", "inventory"));
+        registerBlock(ModBlocks.cropMinicio, "cropminicio");
 
         Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.seedAir, 0, new ModelResourceLocation("magicalcrops:seedair", "inventory"));
         Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.seedCoal, 0, new ModelResourceLocation("magicalcrops:seedcoal", "inventory"));
